@@ -1,9 +1,19 @@
-# Aula Internacional Plus 2 — A2
+# Docling + Apple Vision OCR Convert Tool
 
 Convert PDFs and page images using Docling and Apple Vision OCR (macOS).
 Run commands from this directory with the existing `.venv`.
 
 ```bash
+
+# Create a virtual environment and install dependencies.
+python -m venv .venv
+
+# Activate the virtual environment and install dependencies.
+source .venv/bin/activate
+
+# Install dependencies from requirements-docling.lock.txt.
+pip install -r requirements-docling.lock.txt
+
 # First run needs online access to download Docling layout/table models.
 HF_HUB_OFFLINE=0 .venv/bin/python scripts/convert_sources_docling.py
 .venv/bin/python scripts/finalize_docling.py

@@ -5,10 +5,10 @@ Run commands from this directory with the existing `.venv`.
 
 ```bash
 
-# Create a virtual environment and install dependencies.
+# Create a virtual environment.
 python -m venv .venv
 
-# Activate the virtual environment and install dependencies.
+# Activate the virtual environment.
 source .venv/bin/activate
 
 # Install dependencies from requirements-docling.lock.txt.

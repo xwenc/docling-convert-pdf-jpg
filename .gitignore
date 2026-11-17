@@ -1,0 +1,5 @@
+.venv/
+.cache-docling/
+docling_output/
+docling_preview/
+sources/
